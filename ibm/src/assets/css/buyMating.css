@@ -1,0 +1,462 @@
+.buy_title{
+    position: relative;
+}
+.buy_title h1{
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(0,73,148,1);
+    padding-left: 13px;
+    border-left:4px solid rgba(0,73,148,1);
+}
+.buy_title span{
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background:rgba(0,73,148,1);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.buy_con{
+    margin-top: 32px;
+    background:rgba(255,255,255,.95);
+    box-shadow:0 0 12px 0 rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+.buy_show{
+    display: flex;
+}
+.buy_show>div{
+    width: 32%;
+    margin-right: 2%;
+    background:rgba(0,73,148,1);
+    border-radius:4px;
+    text-align: center;
+    padding: 60px 50px;
+}
+.buy_show>div:last-child{
+    margin-right: 0;
+}
+.buy_show h1{
+    font-size:24px;
+    font-family:Arial;
+    font-weight:900;
+    color:rgba(254,255,255,1);
+    line-height:36px;
+    margin: 30px 0 30px;
+}
+.buy_show p{
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(50,168,238,1);
+    line-height:32px;
+}
+.buy_show h2{
+    font-size:48px;
+    /*font-family:Geometr415 Blk BT;*/
+    font-weight:700;
+    color:rgba(255,255,255,1);
+    margin: 30px 0 16px;
+}
+.buy_show h2 span{
+    font-size: 24px;
+}
+.buy_show h3{
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    color:rgba(50,168,238,1);
+}
+.b_btn{
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    background:rgba(50,168,238,1);
+    border-radius:4px;
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    margin: 60px 0 20px;
+    cursor: pointer;
+}
+.k_btn{
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    border:1px solid rgba(50,168,238,1);
+    border-radius:4px;
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    cursor: pointer;
+}
+.buy_look{
+    height: 660px;
+}
+#myChart{
+    height: 100%;
+}
+
+
+/*弹出配套框*/
+.alert_box{
+    position: absolute;
+    top:0;
+    right: 0;
+    left:0;
+    bottom:0;
+    background-color: rgba(0,0,0,.5);
+}
+.alert{
+    width: 520px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px 40px;
+    background: url("../images/buy/alert.png") no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.alert i{
+    position: absolute;
+    top:20px;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+    background: url("../images/buy/close.png") no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.alert h1{
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(0,73,148,1);
+    margin-bottom: 40px;
+}
+.alert img{
+    width: 40%;
+}
+.alert h2{
+    font-size:24px;
+    font-family:Roboto;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    margin: 16px 0 30px;
+}
+.alert p{
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(50,168,238,1);
+    line-height:30px;
+}
+.alert h3{
+    font-size:48px;
+    /*font-family:Geometr415 Blk BT;*/
+    font-weight:700;
+    color:rgba(255,255,255,1);
+    margin: 20px 0 16px;
+}
+.alert h3 span{
+    font-size: 24px;
+}
+.alert h4{
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    color:rgba(50,168,238,1);
+}
+.count{
+    margin: 30px 0 26px;
+}
+.count span{
+    display: inline-block;
+    width:120px;
+    height:40px;
+    color:#fff;
+    line-height: 40px;
+    font-size:16px;
+    text-align: center;
+    background:rgba(0,73,148,1);
+    border:1px solid rgba(1,95,191,1);
+    border-radius:4px;
+    cursor: pointer;
+}
+.a_btn{
+    width:240px;
+    height:40px;
+    line-height: 40px;
+    font-size:16px;
+    text-align: center;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(255,254,254,1);
+    background:rgba(50,168,238,1);
+    border-radius:4px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.alert .count .last{
+    margin-left: 14px;
+}
+.alert .count .last1{
+    margin: 0 10px;
+}
+.count .active{
+    background:rgba(50,168,238,1);
+    color:rgba(255,255,255,1);
+}
+
+.buy_buy label{
+    margin-right: 20px;
+    width: 120px;
+    text-align: right;
+}
+.from_group{
+    margin-bottom: 20px;
+}
+.from_group p{
+    display: inline-block;
+    width:145px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    background:rgba(255,255,255,1);
+    border:1px solid rgba(221,221,221,1);
+    border-radius:4px;
+    color:rgba(153,153,153,1);
+}
+.from_group span{
+    position: relative;
+}
+.from_group b{
+    position: absolute;
+    right: 6px;
+    top: -7px;
+    width:100px;
+    height:30px;
+    line-height: 30px;
+    background:rgba(0,73,148,1);
+    border-radius:4px;
+    text-align: center;
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    cursor: pointer;
+}
+.from_group1 strong{
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+}
+.from_group1 a{
+    text-decoration: none;
+}
+.from_group1 b{
+    position: static;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url("../images/buy/kuang.png") no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.from_group1 b.gou{
+    background-image: url("../images/buy/kuang1.png");
+}
+.from_group1{
+    margin-top: 50px;
+}
+.from_group>div{
+    display: inline-block;
+}
+.f_btn{
+    width:158px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    background:rgba(50,168,238,1);
+    border-radius:4px;
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    cursor: pointer;
+}
+.x_btn{
+    width:80px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    border:1px solid rgba(50,168,238,1);
+    border-radius:4px;
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(50,168,238,1);
+    cursor: pointer;
+}
+
+
+.buy_buy1{
+    position: relative;
+    height: 500px;
+}
+.buy_buy1>div>*{
+    vertical-align: middle;
+}
+.buy_buy1>div{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+
+}
+.buy_buy1 h1{
+    font-family:Source Han Sans CN;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 60px;
+}
+.buy_buy1 p{
+    font-size: 16px;
+    line-height: 32px;
+}
+.buy_buy1>div>div:nth-child(2){
+    margin-left: 20px;
+}
+.buy_buy1 b{
+    font-size: 30px;
+    position: absolute;
+    top: -30px;
+    right: -20px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+@media (max-width: 1406px) {
+    .buy_show p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+@media (max-width: 1300px) {
+    .buy_show img{
+        width: 86%;
+    }
+    .buy_show>div{
+        padding: 50px 30px;
+    }
+}
+@media (max-width: 1200px) {
+    .buy_show{
+        flex-wrap: wrap;
+    }
+    .buy_show>div{
+        width: 47%;
+        margin-right: 6%;
+        margin-bottom: 50px;
+    }
+    .buy_show>div:nth-child(2){
+        margin-right: 0;
+    }
+}
+@media (max-width: 950px){
+    .buy_show{
+        display: block;
+    }
+    .buy_show>div{
+        width: 100%;
+        margin-right: 0;
+    }
+    .buy_show img{
+        width: 46%;
+    }
+}
+@media (max-width: 768px) {
+    .buy_show>div{
+        margin-bottom: 30px;
+    }
+    .alert{
+        width: 320px;
+        margin-bottom: 0;
+        padding: 40px 20px 30px;
+    }
+    .alert h1{
+        margin-bottom: 20px;
+    }
+    .alert p{
+        font-size: 13px;
+        line-height: 26px;
+        padding: 0 20px;
+    }
+    .alert h3{
+        font-size: 30px;
+        margin: 8px 0 12px;
+    }
+    .alert img{
+        width: 46%;
+    }
+    .alert h2{
+        font-size: 20px;
+        margin: 6px 0;
+        /*color: rgba(0,73,148,1);*/
+    }
+    .alert h4{
+        font-size: 12px;
+    }
+    .count span{
+        width: 90px;
+        font-size: 14px;
+    }
+    .count{
+        margin: 18px 0;
+    }
+    .alert .count .last1{
+        margin: 0;
+    }
+}
+@media (max-width: 480px) {
+    .buy_buy label{
+        text-align: left;
+        width: auto;
+    }
+    .from_group1 strong{
+        margin-left: -23px;
+    }
+    .f_btn{
+        margin-left: -25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,191 @@
+/*弹出框，没有取消确认*/
+.msgzz{
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  background:rgba(0,0,0,0.4);
+  /*display: none;*/
+  z-index: 200000!important;
+}
+.msgzz1{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.4);
+    /*display: none;*/
+    z-index: 199999!important;
+}
+.msgBox{
+  background:rgba(255,255,255,1);
+  width:311px;
+  /*padding-top: 5px;*/
+  color:#0059ac;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  top:26%;
+  left:50%;
+  transform: translate(-50%,0%);
+  overflow: hidden;
+}
+.msgBox1{
+  top:30%;
+}
+@keyframes one {
+  0%{
+    top:26%;
+    opacity: 0.5;
+  }
+  100%{
+    top:27%;
+    opacity: 1;
+  }
+}
+.you{
+  animation: one 0.5s;
+  animation-fill-mode: forwards;
+}
+.msgBox .title1{
+  font-size: 16px;
+  line-height: 40px;
+  background:rgba(0,73,148,1);
+  color:#fff;
+  text-align: center;
+}
+.msgBox .title2{
+  font-size: 16px;
+  line-height: 40px;
+  background:rgba(0,73,148,1);
+  color:#fff;
+  text-align: left;
+  padding-left: 16px;
+}
+.msg_con{
+  padding: 0 16px;
+}
+.msg_con h1{
+  color: #666;
+  font-size: 16px;
+  text-align: left;
+}
+.msg_con input{
+  width: 100%;
+  height: 40px;
+  padding-left: 6px;
+  border: 1px solid #bbb;
+  color: rgba(121,53,131,1);
+  border-radius: 4px;
+}
+.msg1 input[type=text]::-webkit-input-placeholder {
+color: #fff;
+}
+.msg1 input[type=text]:-moz-placeholder {
+color: #fff;
+}
+.msg1 input[type=text]::-moz-placeholder {
+color: #fff;
+}
+.msg1 input[type=text]:-ms-input-placeholder {
+  color: #fff;
+}
+
+.msg_sure{
+  float: right;
+  display: flex;
+  margin: 20px 0 20px 0 ;
+}
+.msg_btn1,.msg_btn2{
+  display: inline-block;
+  font-size: 12px;
+  width: 60px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  background: rgba(121,53,131,1);
+  border-radius: 4px;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(255,255,255,1);
+  margin-left: 20px;
+  cursor: pointer;
+}
+.msgBox .msg{
+  font-size: 16px;
+  line-height: 24px;
+  margin:30px 0 15px;
+  padding-bottom:15px;
+  color: rgba(0,73,148,1);
+}
+/*弹出框，有取消确认*/
+.msgBox .one{
+  text-align: left;
+  padding-left: 16px;
+}
+/*.msgBox span{*/
+  /*position: absolute;*/
+  /*top: 3px;*/
+  /*right: 10px;*/
+  /*color: #fff;*/
+  /*font-size: 24px;*/
+  /*cursor: pointer;*/
+/*}*/
+.msgBox .two{
+  margin: 22px 0 10px;
+}
+.msgBtn{
+  display: flex;
+}
+.msgBtn div{
+  width:155px;
+  line-height: 40px;
+  background:rgba(121,53,131,1);
+  color:#fff;
+  cursor: pointer;
+}
+.cancel{
+  flex:1;
+  border-right:1px solid rgba(45,179,219,0.3);
+}
+
+
+/*推荐人ID*/
+.msg1 input{
+  height: 40px;
+}
+.msgBox .msg1 {
+  font-size: 14px;
+  margin: 15px 0 0;
+}
+.msg1 h1{
+  color: #000;
+}
+.msg1 .el-input{
+  width: 80%;
+  margin:  10px auto 30px;
+}
+.msg1 p{
+  width: 140px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  background-color: #409eff;
+  border-color: #409eff;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.msgBox b{
+  position: absolute;
+  right: 9px;
+  top: -6px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.page_box{
+    width: 100%;
+    padding: 40px;
+}

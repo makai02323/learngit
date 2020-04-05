@@ -1,0 +1,125 @@
+.tran_top{
+    display: flex;
+    margin-bottom: 60px;
+}
+.tran_top>div{
+    width: 480px;
+    background: url("../images/mycount/mycount_1.png") no-repeat;
+    background-size: 100% 100%;
+    padding: 50px 0 60px 40px;
+    position: relative;
+    cursor: pointer;
+}
+.tran_top>div:last-child{
+    margin-left: 40px;
+}
+.tran_top h1{
+    font-size:24px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+}
+.tran_top h2{
+    font-size:36px;
+    font-family:Microsoft YaHei;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    margin-top: 20px;
+}
+.tran_top b{
+    position: absolute;
+    right: 20px;
+    top:50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    background: url("../images/mycount/mycount_3.png") no-repeat;
+    background-size: 100% 100%;
+}
+.from_group p{
+    display: inline-block;
+    width:80px;
+    height:40px;
+    line-height: 40px;
+    background:rgba(50,168,238,1);
+    border-radius:4px;
+    vertical-align: middle;
+    text-align: center;
+    font-size:14px;
+    font-family:Adobe Heiti Std;
+    font-weight:normal;
+    color:rgba(255,255,255,1);
+    cursor: pointer;
+}
+.from_group>div{
+    display: inline-block;
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: rgba(50,168,238,1);
+}
+.wallet_con .from_group:nth-child(2) .el-input{
+    width: 300px;
+}
+@media (max-width: 1420px){
+    .tran_top{
+        padding-right: 20px;
+    }
+}
+@media (max-width: 1030px){
+    .tran_top{
+        display: block;
+        width: 100%;
+        padding-right: 0;
+    }
+    .tran_top>div{
+        width: 100%;
+    }
+    .tran_top>div:last-child{
+        margin: 30px 0 0 0;
+    }
+    .wallet_con{
+        height: auto;
+        padding: 40px;
+    }
+}
+@media (max-width: 480px){
+    .tran_top>div{
+        padding: 30px 0 30px 20px;
+    }
+    .tran_top h2{
+        font-size: 26px;
+    }
+    .tran_top h1{
+        font-size: 20px;
+    }
+    .wallet_con .from_group:nth-child(2) .el-input {
+        width: 226px;
+    }
+    .wallet_con .el-input {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

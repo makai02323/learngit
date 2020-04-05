@@ -1,0 +1,127 @@
+.invite_title h1{
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(0,73,148,1);
+    padding-left: 13px;
+    border-left:4px solid rgba(0,73,148,1);
+}
+.invite_con{
+    height: 734px;
+    margin-top: 32px;
+    background:rgba(255,255,255,.95);
+    box-shadow:0 0 12px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.invite_con>div{
+    width: 345px;
+    background: url("../images/register/invite_bg.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top:48%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 20px 140px;
+    text-align: center;
+}
+.invite_top h2{
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(50,168,238,1);
+}
+.invite_top h1{
+    font-size:36px;
+    font-family:Arial;
+    font-weight:bold;
+    color:rgba(50,168,238,1);
+    margin: 14px 0 20px;
+}
+.invite_top p{
+    width:107px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    font-size:14px;
+    /*font-family:Source Han Sans CN;*/
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    background:rgba(50,168,238,1);
+    border-radius:4px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.invite_middle{
+    margin-top: 40px;
+    font-family:Source Han Sans CN;
+    color:rgba(50,168,238,1);
+}
+img{
+    display: inline-block!important;
+}
+.invite_middle h1{
+    font-size:16px;
+    font-weight:bold;
+    margin: 16px 0 10px;
+}
+.invite_middle p{
+    font-size:14px;
+    font-weight:400;
+}
+.invite_bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    padding: 24px 20px;
+    background:rgba(255,255,255,.18);
+    box-shadow:0 3px 7px 0 rgba(27, 155, 107, 0.35);
+    border-radius:0 0 4px 4px;
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(254,255,255,1);
+    line-height:18px;
+}
+.invite_bottom h1{
+    margin-bottom: 6px;
+}
+.invite_bottom a{
+    color:rgba(254,255,255,1);
+    text-decoration: underline;
+    word-wrap: break-word;
+}
+@media (max-width: 480px) {
+    .invite_con>div{
+        width: 280px;
+    }
+    .invite_con{
+        height: 680px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

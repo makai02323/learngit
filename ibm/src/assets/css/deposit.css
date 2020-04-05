@@ -1,0 +1,244 @@
+.deposit_title h1{
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(0,73,148,1);
+    padding-left: 13px;
+    border-left:4px solid rgba(0,73,148,1);
+}
+.deposit_con{
+    height: 734px;
+    margin-top: 32px;
+    background:rgba(255,255,255,.95);
+    box-shadow:0 0 12px 0 rgba(0, 0, 0, 0.1);
+    padding: 40px 0 0 36px;
+}
+.deposit_con_title h1{
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(0,73,148,1);
+}
+.deposit_sel{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.deposit_sel>div{
+    margin-right: 40px;
+    display: flex;
+    width: 236px;
+    background: url("../images/deposit/1.png") no-repeat;
+    background-size: 100% 100%;
+    padding: 30px 0 30px 20px;
+    position: relative;
+    cursor: pointer;
+}
+.deposit_sel>div:nth-child(2){
+    background-image: url("../images/deposit/2.png");
+}
+.deposit_sel>div:last-child{
+    margin-right: 0;
+    background-image: url("../images/deposit/3.png");
+}
+.deposit_sel>div b{
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    background: url("../images/deposit/4.png") no-repeat;
+    background-size: 100% 100%;
+}
+.deposit_sel>div:nth-child(2) b{
+    background-image: url("../images/deposit/5.png");
+}
+.deposit_sel>div:last-child b{
+    background-image: url("../images/deposit/6.png");
+}
+.deposit_sel>div>div{
+    margin-left: 30px;
+    line-height: 30px;
+    margin-top: 6px;
+    text-align: center;
+}
+.deposit_sel>div h1{
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+.deposit_sel>div p{
+    font-size:16px;
+    font-family:Arial;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+}
+.deposit_sel i{
+    position: absolute;
+    right: 0;
+    top:1px;
+    width: 25px;
+    height: 20px;
+    background: url("../images/deposit/7.png") no-repeat;
+    background-size: 100% 100%;
+}
+.deposit_zf{
+    margin-top: 50px;
+}
+.deposit_zf h1{
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    margin-bottom: 20px;
+}
+.deposit_zf h2{
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    margin-top: 20px;
+}
+.deposit_zf h2 span{
+    color: #32A8EE;
+}
+.de_btn{
+    width:232px;
+    height:50px;
+    line-height: 50px;
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    text-align: center;
+    color:rgba(255,255,255,1);
+    background:rgba(50,168,238,1);
+    border-radius:4px;
+    margin-top: 45px;
+    cursor: pointer;
+}
+.explain{
+    margin-top: 60px;
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(0,73,148,1);
+    line-height:30px;
+}
+.explain h1{
+    font-size: 16px;
+}
+.explain h1 b{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: url("../images/deposit/8.png") no-repeat;
+    background-size: 100% 100%;
+    vertical-align: center;
+}
+.explain p{
+    margin-top: 10px;
+}
+
+
+/*二维码支付*/
+.alert_code{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 10;
+}
+.alert_con{
+    width: 440px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 6px;
+    text-align: left;
+    padding: 20px;
+}
+.a_close{
+    position: absolute;
+    top:-4px;
+    right: 9px;
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+}
+.alert_title span,.c_top span:last-child{
+    color:#FF6B00;
+}
+.alert_title h1{
+    font-size: 16px;
+    margin: 0;
+    font-family: SourceHanSansCN-Regular;
+    line-height: 24px;
+}
+.c_img{
+    text-align: center;
+}
+.c_top{
+    width: 100%;
+    display: flex;
+    border: 1px solid #bbb;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.c_top b{
+    font-weight: normal;
+}
+.c_top span{
+    text-align: center;
+}
+.c_top span:first-child{
+    width: 16%;
+    border-right: 1px solid #bbb;
+    cursor: pointer;
+}
+.c_top span:last-child{
+    flex: 1;
+}
+.c_top:last-child{
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 1183px) {
+    .deposit_sel>div{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .deposit_con{
+        height: auto;
+        padding: 40px 0 40px 36px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

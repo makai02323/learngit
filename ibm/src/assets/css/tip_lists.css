@@ -1,0 +1,150 @@
+.tip_title h1{
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(0,73,148,1);
+    padding-left: 13px;
+    border-left:4px solid rgba(0,73,148,1);
+}
+.tip_con{
+    min-height: 734px;
+    margin-top: 32px;
+    background:rgba(255,255,255,.95);
+    box-shadow:0 0 12px 0 rgba(0, 0, 0, 0.1);
+}
+.tip_top{
+    padding: 20px;
+}
+.el-button{
+    margin-left: 10px;
+}
+.tip_con .line{
+    height: 2px;
+    background-color: #ccc;
+}
+.tip_middle{
+    padding: 20px;
+    height: 320px;
+    position: relative;
+}
+.tip_middle h1,.tip_bottom h1{
+    font-family:Source Han Sans CN;
+    font-size: 20px;
+}
+.tip_middle>div{
+    display: flex;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.tip_middle_left{
+    position: relative;
+    width: 100px;
+}
+.tip_middle img{
+    width: 100%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.tip_middle_right{
+    margin-left: 40px;
+}
+.tip_middle_right h2{
+    font-family:Source Han Sans CN;
+    font-size: 18px;
+    line-height: 36px;
+}
+.tip_middle_right h2 span{
+    display: inline-block;
+    width: 120px;
+}
+.tip_bottom{
+    padding: 20px;
+}
+.tip_bottom>div{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family:Source Han Sans CN;
+    padding: 0 10%;
+}
+.tip_next{
+    margin:0 30px 20px 0;
+    cursor: pointer;
+}
+.tip_next img{
+    width: 100px;
+}
+.tip_bottom h2{
+    margin: 12px 0 4px;
+}
+@media (max-width: 1140px) {
+    .tip_middle>div{
+        width: 388px;
+    }
+
+}
+@media (max-width: 600px) {
+    .el-button{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .tip_middle>div,.tip_middle_left,.tip_middle img{
+        display: block;
+        position: static;
+        transform: translate(0,0);
+        width: 100%;
+    }
+    .tip_middle_left{
+       text-align: center;
+    }
+    .tip_middle_left img{
+        width: 100px;
+        margin: 0 auto;
+    }
+    .tip_middle{
+        height: auto;
+    }
+    .tip_middle_right{
+        margin: 10px 0 0;
+        padding-left: 14%;
+    }
+    .tip_middle_right h2{
+        font-size: 14px;
+    }
+    .tip_middle_right h2 span{
+        width: 90px;
+    }
+    .tip_next{
+        width: 48%;
+        margin-right: 4%;
+        margin-top: 10px;
+    }
+    .tip_next img{
+        width: 80px;
+    }
+    .tip_next:nth-child(even){
+        margin-right: 0;
+    }
+    .tip_middle h1,.tip_bottom h1{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

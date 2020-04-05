@@ -1,0 +1,209 @@
+.infor_title h1{
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(0,73,148,1);
+    padding-left: 13px;
+    border-left:4px solid rgba(0,73,148,1);
+}
+.infor_top{
+    background:rgba(255,255,255,1);
+    box-shadow:0 0 12px 0 rgba(0, 0, 0, 0.1);
+    opacity:0.95;
+    border-radius:4px;
+    margin-top: 32px;
+}
+.form_group br{
+    display: none;
+}
+.infor_top h1{
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:48px;
+    background:rgba(0,73,148,1);
+    box-shadow:0 0 12px 0 rgba(0, 0, 0, 0.1);
+    opacity:0.95;
+    border-radius:4px 4px 0 0;
+    padding-left: 38px;
+}
+.infor_content{
+    padding: 20px 0 30px 36px;
+}
+.infor_content1{
+    padding: 20px 0 20px 36px;
+}
+.el-input {
+    position: relative;
+    font-size: 14px;
+    display: inline-block;
+    width: 240px;
+}
+.from_group2 .el-input{
+    width: 230px;
+}
+.infor_top .form_group:nth-child(3) .el-input{
+    width: 344px;
+}
+.infor_content label{
+    width: 100px;
+   margin-right: 20px;
+}
+.form_group{
+    margin-bottom: 20px;
+}
+.form_group span,.alert_group>div span{
+    position: relative;
+}
+.form_group b,.alert_group>div b{
+    position: absolute;
+    right: 6px;
+    top: -7px;
+    width:100px;
+    height:30px;
+    line-height: 30px;
+    background:rgba(0,73,148,1);
+    border-radius:4px;
+    text-align: center;
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    cursor: pointer;
+}
+/*.form_group1{*/
+    /*margin-bottom: 0;*/
+/*}*/
+.infor_top .form_group:nth-child(5),.infor_top .form_group.form_group1{
+    margin-bottom: 10px;
+}
+.img_show{
+    max-width: 200px;
+    height: auto;
+}
+.img_hide{
+    margin: 0 0 10px 142px;
+    display: block;
+    max-width: 200px;
+}
+.form_group:last-child{
+    margin-bottom: 0;
+}
+.el-upload__input{
+    display: none;
+}
+.upload-demo{
+    display: inline-block;
+}
+.el-upload-list{
+    display: none;
+}
+.infor_btn{
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:48px;
+    width:232px;
+    height:50px;
+    background:rgba(50,168,238,1);
+    border-radius:4px;
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+/*管理员会员审核弹窗*/
+.alert_group label{
+    width: 120px;
+    text-align: left;
+}
+.alert_group>div{
+    margin-bottom: 20px;
+}
+@media (max-width: 1200px){
+    .sl_2,.sl_3{
+        display: block;
+        width: 200px;
+        margin-left: 144px;
+        margin-top: 10px;
+    }
+    .sl_1{
+        width: 200px;
+    }
+}
+@media (max-width: 880px){
+    .infor_top .form_group:nth-child(3) .el-input{
+        width: 230px;
+    }
+    .sl_2{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 480px){
+    .el-select{
+        padding-left: 0;
+    }
+    .sl_1,.sl_2,.sl_3{
+        display: block;
+        width: 160px;
+        margin-left: 84px;
+    }
+    .sl_1{
+        margin-top: -30px;
+    }
+    .infor_top .form_group:nth-child(3) .el-input{
+        width: 200px;
+    }
+    .infor_content label{
+        width: 70px;
+    }
+    .img_hide{
+        margin: 10px auto;
+    }
+    .form_group br{
+        display: block;
+    }
+    .form_group_type>label+label{
+        margin-top: 10px;
+    }
+    .infor_top h1{
+        padding-left: 20px;
+    }
+    .infor_content {
+        padding: 20px 0 30px 20px;
+    }
+    .form_group b{
+        font-size: 12px;
+        width: 80px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

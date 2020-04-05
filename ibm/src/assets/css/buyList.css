@@ -1,0 +1,104 @@
+td{
+    position: relative;
+    width: 9%;
+}
+td span{
+    width: 100%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    line-height: 20px;
+    word-break:break-all;
+}
+tr td:last-child{
+    cursor: pointer;
+    font-family:Source Han Sans CN;
+}
+.caozuo{
+    position: relative;
+    cursor: pointer;
+    font-family:Source Han Sans CN;
+}
+.caozuo b{
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background: url("../images/buy/down.png") no-repeat;
+    background-size: 100% 100%;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+.caozuo ul{
+    width: 106px;
+    padding: 14px 0 7px 8px;
+    position: absolute;
+    top:24px;
+    left:50%;
+    transform: translateX(-50%);
+    line-height: 40px;
+    background: url("../images/buy/list.png") no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    z-index: 10000!important;
+}
+.caozuo li{
+    height: 40px;
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+}
+.caozuo li:hover{
+    background:rgba(255,255,255,1);
+    color:rgba(50,168,238,1);
+}
+.caozuo li:hover a{
+    background:rgba(255,255,255,1);
+    color:rgba(50,168,238,1);
+}
+.caozuo a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 1100px) {
+    td span{
+        line-height: 16px;
+    }
+    .cash_con th{
+        line-height: 20px;
+    }
+    tr td:first-child{
+        width: 12%;
+        padding: 0 4px;
+    }
+    tr td:last-child{
+        width: 80px;
+        padding: 0 4px;
+    }
+    .caozuo ul{
+        left: 36%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

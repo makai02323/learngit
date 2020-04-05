@@ -1,0 +1,94 @@
+.feed_title h1{
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(0,73,148,1);
+    padding-left: 13px;
+    border-left:4px solid rgba(0,73,148,1);
+}
+.feed_con{
+    height: 730px;
+    margin-top: 32px;
+    background:rgba(255,255,255,.95);
+    box-shadow:0 0 12px 0 rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+.from_group{
+    margin-bottom: 20px;
+}
+.from_group label{
+    margin-right: 20px;
+}
+.from_group input{
+    width:300px;
+    height:40px;
+    background:rgba(255,255,255,1);
+    border:1px solid rgba(221,221,221,1);
+    border-radius:4px;
+    color:rgba(0,73,148,1);
+    padding-left: 16px;
+}
+.from_group textarea{
+    width: 480px;
+    height: 290px;
+    padding-left: 16px;
+    padding-top: 10px;
+    vertical-align: top;
+    color:rgba(0,73,148,1);
+    border:1px solid rgba(221,221,221,1);
+    border-radius:4px;
+}
+label+div{
+    display: inline-block;
+}
+.btn{
+    width:200px;
+    height:40px;
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height: 30px;
+    background:rgba(50,168,238,1);
+    border-radius:4px;
+    margin: 30px 0 0 28px;
+    cursor: pointer;
+}
+@media (max-width: 980px) {
+    .from_group textarea{
+        width: 360px;
+    }
+}
+@media (max-width: 856px) {
+    .from_group textarea{
+        width: 300px;
+    }
+    .feed_con{
+        height: auto;
+        padding: 40px;
+    }
+    .btn{
+        margin: 30px 0 0 -24px;
+    }
+}
+@media (max-width: 480px){
+    .from_group textarea,.from_group input{
+        width: 270px;
+    }
+    label+div{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

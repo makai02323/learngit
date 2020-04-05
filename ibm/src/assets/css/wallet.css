@@ -1,0 +1,101 @@
+.wallet_title h1{
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:bold;
+    color:rgba(0,73,148,1);
+    padding-left: 13px;
+    border-left:4px solid rgba(0,73,148,1);
+}
+.wallet_con{
+    margin-top: 32px;
+    padding: 40px 0 0 40px;
+    background:rgba(255,255,255,0.95);
+    box-shadow:0 0 12px 0 rgba(0, 0, 0, 0.1);
+    border-radius:4px;
+    height: 740px;
+}
+.from_group label{
+    margin-right: 20px;
+    width: 70px;
+    text-align: right;
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    vertical-align: middle;
+}
+.from_group{
+    margin-bottom: 20px;
+}
+.from_group span{
+    position: relative;
+}
+.from_group b{
+    position: absolute;
+    right: 6px;
+    top: -7px;
+    width:100px;
+    height:30px;
+    line-height: 30px;
+    background:rgba(0,73,148,1);
+    border-radius:4px;
+    text-align: center;
+    font-size:14px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    cursor: pointer;
+}
+.from_group strong{
+    display: inline-block;
+    width:232px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    background:rgba(50,168,238,1);
+    border-radius:4px;
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    cursor: pointer;
+}
+.from_group1{
+    margin-top: 40px;
+}
+.wallet_con h1{
+    font-size: 16px;
+}
+.wallet_con p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+@media (max-width: 480px) {
+    .wallet_con .el-input {
+        width: 80%;
+    }
+    .from_group label{
+        text-align: left;
+    }
+    .wallet_con{
+        height: auto;
+        padding-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

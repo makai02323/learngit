@@ -1,0 +1,425 @@
+.page_top{
+  display: flex;
+}
+.page_left{
+  width: 64%;
+  display: flex;
+  margin-right: 3%;
+}
+.page_left>div{
+  width: 31%;
+  margin-right: 3.5%;
+  padding: 50px 0 60px 20px;
+  background: url("../images/page/page_1.png") no-repeat;
+  background-size: 100% 100%;
+}
+.page_left>div:nth-child(2){
+  background-image: url("../images/page/page_2.png");
+}
+.page_left>div:nth-child(3){
+  background-image: url("../images/page/page_3.png");
+  margin-right: 0;
+}
+.page_left h1{
+    font-size:24px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+}
+.page_left p{
+    font-size:36px;
+    font-family:Microsoft YaHei;
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    margin-top: 10px;
+}
+.page_left span{
+    font-weight:bold;
+}
+.page_right,.page_left_middle{
+    width: 33%;
+    border:2px solid rgba(0,73,148,1);
+    padding: 30px 20px 20px;
+    position: relative;
+}
+.page_title{
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-50%,-51%);
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(0,73,148,1);
+    line-height:15px;
+    padding: 0 10px;
+    background-color: rgba(248,248,248,1);
+}
+.page_title i{
+    width: 6px;
+    height: 20px;
+    position: absolute;
+}
+.left{
+    left: 0;
+    top:-3px;
+    background: url("../images/page/left.png") no-repeat;
+    background-size: 100% 100%;
+}
+.right{
+    right: 0;
+    top:-3px;
+    background: url("../images/page/right.png") no-repeat;
+    background-size: 100% 100%;
+}
+.page_right>div,.page_left_middle>div{
+    padding: 42px 20px;
+    background:rgba(255,255,255,.95);
+    box-shadow:0 17px 67px 0 rgba(83,93,113,0.06);
+    position: relative;
+}
+.page_left_middle1>div{
+    padding: 0;
+}
+.page_contact{
+    display: flex;
+    height: 100%;
+}
+.page_right p{
+    background:rgba(50,168,238,1);
+    border-radius:4px;
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 59px;
+}
+.page_contact p{
+    cursor: pointer;
+    z-index: 2;
+}
+.page_right p:last-child{
+    margin-right: 0;
+    background:rgba(20,181,197,1);
+}
+.page_right p b{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../images/page/mony_icon.png") no-repeat;
+    background-size: 100% 100%;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+.page_right p span{
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    vertical-align: middle;
+}
+.adorn{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.adorn img{
+    position: absolute;
+}
+.adorn img:nth-child(1){
+    top:-2px;
+    left: -2px;
+}
+.adorn img:nth-child(2){
+    right: -2px;
+    top: -2px;
+}
+.adorn img:nth-child(3){
+    left: -2px;
+    bottom: -2px;
+}
+.adorn img:nth-child(4){
+    right: -2px;
+    bottom: -2px;
+}
+.page_top_middle{
+    margin-top: 32px;
+}
+.page_left_middle{
+    width: 64%;
+    margin-right: 3%;
+}
+.page_left_middle1{
+    width: 100%;
+    margin-right: 0;
+}
+.page_contact_table{
+    max-height: 400px;
+    overflow: scroll;
+}
+.page_contact_table ::-webkit-scrollbar {
+    width: 100%;
+    height: 8px;
+}
+.page_contact>div:nth-child(1){
+    text-align: center;
+}
+.page_contact>div:nth-child(2){
+    flex: 1;
+}
+.page_middle_title{
+    margin-top: 40px;
+    background:rgba(247,247,247,1);
+    border:1px solid rgba(238,238,238,1);
+    padding: 10px 0 14px;
+}
+.page_middle_title h1{
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+}
+.page_line{
+    height:1px;
+    background:rgba(238,238,238,1);
+    margin: 14px 0 9px;
+}
+#myChart{
+    width: 100%;
+    height: 257px;
+}
+.page_con{
+    height: 100%;
+}
+.page_contact>div{
+    width: 100%;
+    text-align: center;
+}
+.page_contact>div:nth-child(1).page_img{
+    width: 100%;
+    text-align: center;
+}
+.page_contact1{
+    display: block;
+}
+.page_contact1 h1{
+    font-size:18px;
+    font-family:Microsoft YaHei;
+    font-weight:bold;
+    color:rgba(50,168,238,1);
+    line-height:18px;
+    margin-top: 20px;
+}
+.page_contact1>div>div{
+    margin-top: 28px;
+}
+.page_contact1 h2{
+    font-size:18px;
+    font-family:Source Han Sans CN;
+    font-weight:500;
+    color:rgba(102,102,102,1);
+    line-height:18px;
+}
+.page_contact1 h3{
+    font-size:14px;
+    font-family:Arial;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    line-height:15px;
+    margin-top: 10px;
+}
+.page_top_bottom{
+    margin-top: 40px;
+}
+.page_contact2{
+    display: block;
+}
+.page_contact2>div:nth-child(1){
+    width: 100%;
+    margin-right: 0;
+}
+#myChart1{
+    width: 100%;
+    height: 257px;
+}
+.page_contact2 table{
+    background:rgba(247,247,247,1);
+    border:1px solid rgba(238,238,238,1);
+    text-align: center;
+}
+.page_contact2 th,.page_contact2 td{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+.page_contact2 th,.page_contact2 td:first-child{
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+}
+.page_contact2 td:not(:first-child){
+    font-size:16px;
+    font-family:Source Han Sans CN;
+    font-weight:400;
+    color:rgba(0,160,255,1);
+}
+.page_right>div.page_con1{
+    padding: 0;
+}
+.page_img1{
+    margin-top: 50px;
+}
+.notice h1{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.notice{
+    margin-bottom: 40px;
+}
+.notice p{
+    margin-top: 40px;
+    white-space:pre-line
+}
+@media (max-width: 1560px){
+    .page_left h1{
+        font-size: 20px;
+    }
+    .page_left p{
+        font-size: 30px;
+    }
+    .page_left>div{
+        padding: 50px 0 0 20px;
+        height: 180px;
+    }
+    .page_top1 .page_right>div{
+        padding: 32px 20px;
+    }
+}
+@media (max-width: 1492px){
+    .page_contact1 h2{
+        font-size: 16px;
+    }
+    .page_middle_title h1,.page_contact2 th,.page_contact2 th, .page_contact2 td:first-child{
+        font-size: 14px;
+    }
+}
+@media (max-width: 1400px){
+    .page_left p{
+        font-size: 24px;
+    }
+    .page_left>div{
+        padding: 60px 0 0 20px;
+    }
+    .page_right p b{
+        margin-right: 8px;
+    }
+}
+@media (max-width: 1240px){
+    .page_top{
+        display: block;
+    }
+    .page_left,.page_right,.page_left_middle{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 930px){
+    .page_left,.page_contact3{
+        display: block;
+    }
+    .page_left>div{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .page_right{
+        margin-bottom: 0;
+    }
+    .page_contact3>div:first-child{
+        margin-bottom: 40px;
+        width: 100%;
+        margin-right: 0;
+    }
+    .page_left h1{
+        font-size: 20px;
+    }
+    .page_left p{
+        font-size: 30px;
+    }
+}
+@media (max-width: 480px){
+    .page_img1{
+        margin-top: 0;
+        padding: 30px 0;
+    }
+    .page_left>div{
+        padding: 50px 0 0 40px;
+    }
+    .notice h1{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
